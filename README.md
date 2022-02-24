@@ -1,4 +1,4 @@
-# flapkap_challenge
+# jubilant-funicular
 
 An app that displays insights from an API response containing a list of all orders that users purchased from an ecommerce shop.
 
