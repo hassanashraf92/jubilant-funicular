@@ -1,16 +1,41 @@
 # flapkap_challenge
 
-A new Flutter project.
+An app that displays insights from an API response containing a list of all orders that users purchased from an ecommerce shop.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### Requirements
+* Flutter 2.10.2 (https://github.com/flutter/flutter.git).
+* Dart 2.16.1
+* DevTools 2.9.2
 
-A few resources to get you started if this is your first Flutter project:
+### Design
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Layers
+- Data Layer = Models.
+- Data Repositories Layer = Repositories Implementations + API (MOCK). 
+- Presentation Layer = UI (Widgets).
+
+### Architecture concepts
+* Data Binding using  `FutureBuilder` class.
+
+### Packages used
+* charts_flutter: ^0.12.0
+
+### How to run the example?
+
+1. Clone the project from github `https://github.com/hassanashraf92/jubilant-funicular.git`.
+2. Open designated simulator you want to run project on.
+3. Open shell window and navigate to project folder.
+4. Run `flutter run`.
+
+### How was it created?
+
+1. Open shell window and navigate to desired root folder.
+2. Run `flutter create project_name`.
+8. Build and run.
+
+
+```
+For questions - please don't hesitate to contact me at 01113412336 or hassan92ashraf@gmail.com
+Thank you!
