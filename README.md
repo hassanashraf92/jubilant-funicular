@@ -7,9 +7,7 @@ An app that displays insights from an API response containing a list of all orde
 * Flutter 2.10.2 (https://github.com/flutter/flutter.git).
 * Dart 2.16.1
 * DevTools 2.9.2
-
-### Design
-
+* Xcode 13
 
 ### Layers
 - Data Layer = Models.
